@@ -20,8 +20,14 @@
  */
 
 public class SearchInsertPosition {
+    static String k;
+    static {
+        k = "10";
+        System.out.println(k + "from static block");
+    }
     public static void main(String[] args) {
 
+        System.out.println(k + "from main method");
     }
     public static int searchInsert(int[] nums, int target) {
 

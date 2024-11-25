@@ -32,7 +32,7 @@
 
 public class PalindromeNumber {
     public static void main(String[] args) {
-
+        System.out.println(isPalindrome(1001));
     }
     //1234
     public static boolean isPalindrome(int x) {
